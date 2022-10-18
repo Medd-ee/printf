@@ -6,7 +6,6 @@
  *
  * Return: number of digits printed
  */
-
 int print_u(va_list u)
 {
 	unsigned int a[10];
@@ -39,7 +38,6 @@ int print_u(va_list u)
  *
  * Return: number of digits printed
  */
-
 int print_o(va_list o)
 {
 	unsigned int a[11];
@@ -72,7 +70,6 @@ int print_o(va_list o)
  *
  * Return: number of digits printed
  */
-
 int print_b(va_list b)
 {
 	unsigned int n, m, i, sum;

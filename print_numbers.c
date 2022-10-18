@@ -6,7 +6,6 @@
  *
  * Return: number of chars and digits printed
  */
-
 int print_i(va_list i)
 {
 	int a[10];
@@ -46,7 +45,6 @@ int print_i(va_list i)
  *
  * Return: number of chars and digits printed
  */
-
 int print_d(va_list d)
 {
 	int a[10];
@@ -67,7 +65,7 @@ int print_d(va_list d)
 		count++;
 		for (j = 0; j < 10; j++)
 			a[j] *= -1;
- 	}
+	}
 	for (j = 0, sum = 0; j < 10; j++)
 	{
 		sum += a[j];
